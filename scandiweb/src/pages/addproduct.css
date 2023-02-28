@@ -1,0 +1,94 @@
+.productlistcontainer {
+    height: 100vh;
+    background: #ffffff;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.headerproduct {
+    display: flex;
+    height: 10vh;
+    width: 90vw;
+    background: #ffffff;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 5vw;
+    border-bottom: 1px solid #000;
+}
+
+.headerbutton {
+    display: flex;
+    width: 10vw;
+    height: 3vh;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.titleheaderproduct {
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 30px;
+
+}
+
+.buttonsave {
+    height: 100%;
+    width: 100%;
+    background: rgb(95, 95, 255);
+    border: 0px;
+    border-radius: 2px;
+}
+.buttonsave:hover {
+   cursor: pointer;
+}
+.buttoncancel:hover {
+    cursor: pointer;
+ }
+ 
+.buttoncancel {
+    height: 100%;
+    width: 100%;
+    background: rgb(252, 84, 84);
+    border: 0px;
+    border-radius: 2px;
+
+}
+
+.divaddproductform {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 5vw;
+    border-bottom: 1px solid #000;
+    
+}
+
+#product_form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#productType {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.divlabelforminput {
+    display: flex;
+    width: 15vw;
+    margin-top:10px;
+    margin-bottom:10px;
+    justify-content: space-between;
+}
+
+.lastsentence {
+    text-align: center;
+}
+.textbottom {
+    font-size: 15px;
+}
